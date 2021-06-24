@@ -1,0 +1,12 @@
+{
+  "name": "calcul_imc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch index.scss:style.css"
+
+  },
+  "author": "",
+  "license": "ISC"
+}

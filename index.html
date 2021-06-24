@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="app.js"></script>
+    <meta charset="utf-8"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Paytone+One&display=swap');
+    </style>
+</head>
+<body>
+<header>
+    <h1>Calculateur d'IMC</h1>
+    <h2>En ligne et Gratuit</h2>
+</header>
+
+<div id="form">
+    <div class="calcul">
+        <span> VOS MENSURATIONS</span>
+        <div class="input_taille">
+            <input type="number" id="taille" class="form_imc" placeholder="Indiquez votre taille en metre">
+            <span class="info">cm</span>
+        </div>
+        <div class="input_poids">
+            <input type="number" id="poids" class="form_imc" placeholder="indiquez votre poids en kg">
+            <span class="info">kg</span>
+        </div>
+    </div>
+    <div class="resultats">
+        <span>LES RESULTATS DE VOTRE IMC</span>
+        <div id="result"></div>
+        <img src="undraw_yoga.svg">
+    </div>
+</div>
+</body>
+</html>
