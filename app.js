@@ -2,7 +2,7 @@ window.addEventListener("load", function () {
     let InputTaille = document.getElementById('taille')
     let InputPoids = document.getElementById('poids')
     console.log(InputPoids)
-    InputPoids.addEventListener('change', function (event) {
+    InputPoids.addEventListener('input', function (event) {
         event.preventDefault();
         console.log(event)
         let weight = document.getElementById('poids').value
